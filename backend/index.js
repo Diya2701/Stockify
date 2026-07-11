@@ -18,6 +18,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 const url = process.env.MONGO_URL || "mongodb://127.0.0.1:27017/test";
 
+app.set("trust proxy", 1);
 app.use(
   cors({
     origin: true,
@@ -32,9 +33,10 @@ const sessionOptions = {
   secret: process.env.SESSION_SECRET || "default-session-secret",
   resave: false,
   saveUninitialized: false,
+  proxy: process.env.NODE_ENV === "production",
   cookie: {
-    secure: false,
-    sameSite: "lax",
+    secure: process.env.NODE_ENV === "production",
+    sameSite: process.env.NODE_ENV === "production" ? "none" : "lax",
   },
 };
 app.use(session(sessionOptions));
