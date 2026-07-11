@@ -26,14 +26,14 @@ function Hero() {
                   Search for an answer or browse help topics to create a ticket
                 </h1>
               </div>
-              <a
-                href="#"
+              <button
+                type="button"
                 className="btn btn-primary btn-sm px-3 py-2 rounded-pill shadow-sm"
                 style={{ minWidth: "110px" }}
               >
                 <i className="bi bi-ticket-perforated me-2"></i>
                 Track Tickets
-              </a>
+              </button>
             </div>
 
             <div className="input-group mb-4 shadow-sm">
@@ -48,13 +48,13 @@ function Hero() {
 
             <div className="d-flex flex-wrap gap-2">
               {quickLinks.map((link) => (
-                <a
+                <button
                   key={link}
-                  href="#"
+                  type="button"
                   className="btn btn-light border text-dark"
                 >
                   {link}
-                </a>
+                </button>
               ))}
             </div>
           </div>
@@ -66,9 +66,12 @@ function Hero() {
             <ul className="ps-3 mb-0" style={{ lineHeight: "1.8" }}>
               {featuredArticles.map((article) => (
                 <li key={article}>
-                  <a href="#" className="text-decoration-none text-primary">
+                  <button
+                    type="button"
+                    className="btn btn-link p-0 text-primary text-decoration-none"
+                  >
                     {article}
-                  </a>
+                  </button>
                 </li>
               ))}
             </ul>

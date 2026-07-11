@@ -88,14 +88,14 @@ function CreateTicket() {
               </h4>
               <div className="d-flex flex-column gap-2">
                 {topic.links.map((link) => (
-                  <a
+                  <button
                     key={link}
-                    href="#"
-                    className="text-decoration-none text-dark"
+                    type="button"
+                    className="text-decoration-none text-dark btn btn-link p-0"
                     style={{ lineHeight: 1.6 }}
                   >
                     {link}
-                  </a>
+                  </button>
                 ))}
               </div>
             </div>

@@ -32,17 +32,29 @@ function Team() {
           <p>Playing basketball is his zen.</p>
           <p>
             Connect on{" "}
-            <a href="" style={{ textDecoration: "none" }}>
+            <button
+              type="button"
+              className="btn btn-link p-0"
+              style={{ textDecoration: "none" }}
+            >
               Homepage
-            </a>{" "}
+            </button>{" "}
             /{" "}
-            <a href="" style={{ textDecoration: "none" }}>
+            <button
+              type="button"
+              className="btn btn-link p-0"
+              style={{ textDecoration: "none" }}
+            >
               TradingQnA
-            </a>{" "}
+            </button>{" "}
             /{" "}
-            <a href="" style={{ textDecoration: "none" }}>
+            <button
+              type="button"
+              className="btn btn-link p-0"
+              style={{ textDecoration: "none" }}
+            >
               Twitter
-            </a>
+            </button>
           </p>
         </div>
       </div>
