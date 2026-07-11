@@ -11,7 +11,7 @@ function Hero() {
       </div>
       <div className="row p-5 mt-5 text-center">
         <div className="col-4 p-4">
-          <img src="media/images/pricingEquity.svg" alt="Pricing - equity" />
+          <img src="Media/images/pricingEquity.svg" alt="Pricing - equity" />
           <h1 className="fs-3">Free equity delivery</h1>
           <p className="text-muted">
             All equity delivery investments (NSE, BSE), are absolutely free — ₹
@@ -20,7 +20,7 @@ function Hero() {
         </div>
         <div className="col-4 p-4">
           <img
-            src="media/images/intradayTrades.svg"
+            src="Media/images/intradayTrades.svg"
             alt="Pricing - intraday trades"
           />
           <h1 className="fs-3">Intraday and F&O trades</h1>
@@ -31,7 +31,7 @@ function Hero() {
         </div>
         <div className="col-4 p-4">
           <img
-            src="media/images/pricingEquity.svg"
+            src="Media/images/pricingEquity.svg"
             alt="Pricing - mutual funds"
           />
           <h1 className="fs-3">Free direct MF</h1>

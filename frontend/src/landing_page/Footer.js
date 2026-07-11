@@ -9,7 +9,7 @@ function Footer() {
         <div className="row mt-5">
           <div className="col">
             <img
-              src="media/images/logo.png"
+              src="Media/images/logo.png"
               alt="Stockify logo"
               style={{ width: "50%" }}
             />

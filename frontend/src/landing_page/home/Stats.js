@@ -30,7 +30,7 @@ function Stats() {
         </div>
         <div className="col-6 p-5">
           <img
-            src="media/images/ecosystem.png"
+            src="Media/images/ecosystem.png"
             alt="Stockify ecosystem"
             style={{ width: "90%" }}
           />
