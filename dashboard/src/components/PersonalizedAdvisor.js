@@ -206,7 +206,7 @@ const PersonalizedAdvisor = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3001/api/personalized-advisor",
+        "https://stockify-backend-opit.onrender.com/api/personalized-advisor",
         formData,
       );
       sessionStorage.setItem(

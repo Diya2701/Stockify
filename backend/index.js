@@ -49,7 +49,7 @@ passport.deserializeUser(User.deserializeUser());
 
 app.get("/", (req, res) => {
   res.send(
-    "Stockify backend is running. Frontend should run on http://localhost:3000",
+    "Stockify backend is running. Dashboard is deployed at https://stockify-dashboard.vercel.app/",
   );
 });
 

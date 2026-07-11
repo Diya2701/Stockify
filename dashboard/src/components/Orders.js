@@ -5,9 +5,11 @@ const Orders = () => {
   const [orders, setOrders] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:3001/allOrders").then((res) => {
-      setOrders(res.data);
-    });
+    axios
+      .get("https://stockify-backend-opit.onrender.com/allOrders")
+      .then((res) => {
+        setOrders(res.data);
+      });
   }, []);
 
   return (

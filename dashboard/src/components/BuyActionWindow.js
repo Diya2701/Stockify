@@ -15,7 +15,7 @@ const BuyActionWindow = ({ uid, initialMode = "BUY" }) => {
 
   const handleActionClick = async () => {
     try {
-      await axios.post("http://localhost:3001/newOrder", {
+      await axios.post("https://stockify-backend-opit.onrender.com/newOrder", {
         name: uid,
         qty: Number(stockQuantity),
         price: Number(stockPrice),

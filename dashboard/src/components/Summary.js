@@ -4,7 +4,7 @@ const Summary = () => {
   const [userEmail, setUserEmail] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:3001/auth/me", {
+    fetch("https://stockify-backend-opit.onrender.com/auth/me", {
       method: "GET",
       credentials: "include",
       headers: { "Content-Type": "application/json" },

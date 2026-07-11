@@ -18,7 +18,7 @@ const Menu = () => {
 
   useEffect(() => {
     // try to fetch current user from backend
-    fetch("http://localhost:3001/auth/me", {
+    fetch("https://stockify-backend-opit.onrender.com/auth/me", {
       method: "GET",
       credentials: "include",
       headers: { "Content-Type": "application/json" },
@@ -36,7 +36,7 @@ const Menu = () => {
 
   const handleLogout = async () => {
     try {
-      await fetch("http://localhost:3001/auth/logout", {
+      await fetch("https://stockify-backend-opit.onrender.com/auth/logout", {
         method: "POST",
         credentials: "include",
         headers: { "Content-Type": "application/json" },
@@ -45,7 +45,7 @@ const Menu = () => {
       // ignore errors
     } finally {
       // redirect to landing page
-      window.location.href = "http://localhost:3002";
+      window.location.href = "https://stockify-avjo-eight.vercel.app/";
     }
   };
 

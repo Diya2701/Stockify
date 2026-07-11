@@ -52,7 +52,7 @@ function PortfolioAnalysis() {
     setErrorMessage("");
     try {
       const response = await axios.post(
-        "http://localhost:3001/api/ai/analyze-portfolio",
+        "https://stockify-backend-opit.onrender.com/api/ai/analyze-portfolio",
       );
       const analysis = response?.data || null;
 

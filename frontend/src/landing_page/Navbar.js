@@ -7,8 +7,8 @@ function Navbar() {
 
   useEffect(() => {
     if (user) {
-      // redirect logged-in users to the frontend landing/dashboard host
-      window.location.href = "http://localhost:3000";
+      // redirect logged-in users to the deployed dashboard
+      window.location.href = "https://stockify-dashboard.vercel.app/";
     }
   }, [user]);
 

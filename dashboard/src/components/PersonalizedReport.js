@@ -72,7 +72,7 @@ const PersonalizedReport = () => {
     try {
       const profileData = JSON.parse(savedForm);
       const response = await axios.post(
-        "http://localhost:3001/api/personalized-advisor",
+        "https://stockify-backend-opit.onrender.com/api/personalized-advisor",
         profileData,
       );
       setReportData(response.data || {});
