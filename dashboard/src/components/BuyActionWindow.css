@@ -1,0 +1,163 @@
+.container {
+    width: min(460px, 92vw);
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    z-index: 1200;
+    border-radius: 18px;
+    border: 1px solid #e5ecf7;
+    box-shadow: 0 22px 60px rgba(15, 23, 42, 0.18);
+    overflow: hidden;
+}
+
+.container.buy-theme .header {
+    background: linear-gradient(135deg, #2f7cf6 0%, #1f63d8 100%);
+}
+
+.container.sell-theme .header {
+    background: linear-gradient(135deg, #ff7a3d 0%, #ef4e2a 100%);
+}
+
+.container .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 22px;
+    color: #fff;
+}
+
+.header h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.header .close-btn {
+    border: none;
+    background: rgba(255, 255, 255, 0.18);
+    color: #fff;
+    border-radius: 999px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.regular-order {
+    padding: 22px 24px 18px;
+    background: #fff;
+}
+
+.inputs {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 16px;
+}
+
+.inputs fieldset {
+    flex: 1;
+    border: 1px solid #d9e2f0;
+    border-radius: 12px;
+    padding: 10px 12px 8px;
+    background: #f9fbff;
+}
+
+.inputs fieldset legend {
+    padding: 0 4px;
+    font-size: 0.78rem;
+    color: #5c6b82;
+}
+
+.inputs fieldset input {
+    width: 100%;
+    border: none;
+    background: transparent;
+    font-size: 1rem;
+    padding: 2px 0 0;
+    outline: none;
+}
+
+.mode-toggle {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.mode-toggle .btn {
+    flex: 1;
+    border-radius: 999px;
+    font-weight: 600;
+    border: none;
+    padding: 10px 14px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px 24px;
+    background: #fff;
+}
+
+.buttons span {
+    font-size: 0.9rem;
+    color: #64748b;
+}
+
+.buttons .action-group {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 999px;
+    color: #fff;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-grey {
+    background: #e2e8f0;
+    color: #475569;
+}
+
+.btn-blue {
+    background: linear-gradient(135deg, #2f7cf6 0%, #1f63d8 100%);
+}
+
+.container.sell-theme .btn-blue {
+    background: linear-gradient(135deg, #ff7a3d 0%, #ef4e2a 100%);
+}
+
+.container.sell-theme .btn-blue:hover {
+    background: linear-gradient(135deg, #ff8f5b 0%, #f25b34 100%);
+}
+
+.btn-blue:hover {
+    background: linear-gradient(135deg, #4a90ff 0%, #205ed2 100%);
+}
+
+.btn-grey:hover {
+    background: #cbd5e1;
+    color: #334155;
+}
+
+.flash-message {
+    margin: 16px 24px 0;
+    padding: 10px 12px;
+    border-radius: 10px;
+    background: #ecfdf3;
+    color: #047857;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: 1px solid #a7f3d0;
+}
