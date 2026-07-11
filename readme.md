@@ -6,6 +6,21 @@ Stockify is a full-stack MERN application that helps investors **understand thei
 
 Unlike traditional stock market platforms that primarily display charts and numbers, Stockify leverages **Artificial Intelligence** to transform portfolio data into personalized, actionable insights. It analyzes investment behavior, evaluates portfolio health, identifies potential risks, and provides recommendations tailored to each investor's financial profile.
 
+---
+
+# 🚀 Live Demo
+
+### 🌐 Landing Page
+**https://stockify-avjo-eight.vercel.app/**
+
+### 📊 Dashboard
+**https://stockify-dashboard.vercel.app/**
+
+### ⚙️ Backend API
+**https://stockify-backend-opit.onrender.com**
+
+---
+
 The platform consists of two major AI modules:
 
 ### 📊 AI Portfolio Analyzer
