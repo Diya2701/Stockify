@@ -1,15 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import {
-  AutoAwesome,
-  AccountBalance,
-  TrendingUp,
-  Security,
-  Schedule,
-  VolunteerActivism,
-  Insights,
-} from "@mui/icons-material";
+import { AutoAwesome, Insights } from "@mui/icons-material";
 import "./PersonalizedAdvisor.css";
 
 const initialForm = {

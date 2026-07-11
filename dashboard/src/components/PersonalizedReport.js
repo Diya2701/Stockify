@@ -14,7 +14,7 @@ const PersonalizedReport = () => {
     location.state?.reportData || {},
   );
   const [fetching, setFetching] = useState(false);
-  const [errorMessage, setErrorMessage] = useState("");
+  const [, setErrorMessage] = useState("");
 
   const profile = reportData.profile || {};
   const allocation = reportData.allocation || [];
